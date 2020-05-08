@@ -173,7 +173,7 @@ body {
   width: 200px; /*メニュー横幅*/
   z-index: 1000000;
   display: none;
-      position: fixed;
+  position: fixed;
 
 }
 li{
@@ -223,6 +223,7 @@ li{
   z-index: 999;
   margin-right: 25px;
   display: none;
+  position:fixed;
 
 }
 
