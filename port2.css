@@ -23,7 +23,7 @@ body {
     top: 0;
     z-index: 10;
     overflow: hidden;
-    potision:fixed;
+    position:fixed;
   }
   .logo {
     width: 230px;
