@@ -169,7 +169,7 @@ body {
   top: 0;
   transition: transform 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
   width: 200px; /*メニュー横幅*/
-  z-index: 1000;
+  z-index: 1100;
   display: none;
 }
 li{
@@ -177,12 +177,12 @@ li{
   font-size: 25px;
   padding: 10px;
   color:rgba(49, 52, 87);
-  z-index:1000;
+  z-index:1100;
 
 }
 #ham-menu a{
   color:rgba(49, 52, 87);
-      z-index:1000;
+      z-index:1100;
 
 
 }
@@ -217,7 +217,7 @@ li{
   top: 0;
   width: 50px; /*アイコン横幅*/
   transition: all 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
-  z-index: 1000;
+  z-index: 1100;
   margin-right: 25px;
   display: none;
 
@@ -233,7 +233,7 @@ li{
 
 #menu-cb:checked ~ #menu-background {
     opacity: 0.5;
-    z-index: 999;
+    z-index: 1100;
 }
 .news-wrapper{
   overflow: hidden;
