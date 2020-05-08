@@ -166,7 +166,6 @@ body {
   box-sizing: border-box;
   height: 350px;
   padding: 10px 20px; /*メニュー内左右上下余白*/
-  position: fixed;
   right: -200px; /*メニュー横幅 width と合わせる*/
   top: 0;
   transition: transform 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
