@@ -166,13 +166,13 @@ body {
   background-color: rgba(255, 255, 255, 0.733); /*メニュー背景色*/
   box-sizing: border-box;
   height: 350px;
-  padding: 10px20px; /*メニュー内左右上下余白*/
+  padding: 10px 20px; /*メニュー内左右上下余白*/
   position: fixed;
   right: -200px; /*メニュー横幅 width と合わせる*/
   top: 0;
   transition: transform 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
   width: 200px; /*メニュー横幅*/
-  z-index: 999;
+  z-index: 1000000;
   display: none;
 }
 li{
