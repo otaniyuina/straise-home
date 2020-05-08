@@ -177,10 +177,13 @@ li{
   font-size: 25px;
   padding: 10px;
   color:rgba(49, 52, 87);
+  z-index:1000;
 
 }
 #ham-menu a{
   color:rgba(49, 52, 87);
+      z-index:1000;
+
 
 }
 #ham-menu a:hover{
