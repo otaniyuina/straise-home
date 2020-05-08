@@ -173,6 +173,8 @@ body {
   width: 200px; /*メニュー横幅*/
   z-index: 1000000;
   display: none;
+      position: fixed;
+
 }
 li{
   list-style: none;
@@ -213,7 +215,6 @@ li{
   font-size: 80px; /*アイコン（フォント）サイズ*/
   height: 50px; /*アイコン縦高さ*/
   line-height: 80px; /*縦位置中央化*/
-  position: fixed;
   right: 0;
   text-align: center;
   top: 0;
